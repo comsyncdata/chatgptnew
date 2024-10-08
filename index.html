@@ -1,0 +1,31 @@
+# Chatbook Interface
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbook</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>Chatbook</h1>
+        </div>
+        <div class="chat-messages" id="chat-messages">
+            <div class="message user-message">
+                <p>Hello, how can I help you today?</p>
+            </div>
+            <div class="message bot-message">
+                <p>I'm looking for information on web development.</p>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Type your message here...">
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
